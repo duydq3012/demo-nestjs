@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'docker build -t ongbvi/nestjs .'
+                docker build -t ongbvi/nestjs .
             }
         }
     }
